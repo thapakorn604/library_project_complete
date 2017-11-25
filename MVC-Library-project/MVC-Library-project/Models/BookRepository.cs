@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using MVCLibraryproject.Abstract;
+using MVCLibraryproject.Entities;
 
 namespace MVCLibraryproject.Models
 {
