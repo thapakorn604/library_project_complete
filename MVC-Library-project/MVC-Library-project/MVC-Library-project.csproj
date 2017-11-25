@@ -78,6 +78,8 @@
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="img\" />
+    <Folder Include="Abstract\" />
+    <Folder Include="Entities\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -86,6 +88,20 @@
     </Compile>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Abstract\IBookRepository.cs" />
+    <Compile Include="Abstract\IMemberRepository.cs" />
+    <Compile Include="Abstract\ILibrarianRepository.cs" />
+    <Compile Include="Abstract\ILibraryRepository.cs" />
+    <Compile Include="Abstract\IRecordRepository.cs" />
+    <Compile Include="Models\BookRepository.cs" />
+    <Compile Include="Models\MemberRepository.cs" />
+    <Compile Include="Models\LibrarianRepository.cs" />
+    <Compile Include="Models\LibraryRepository.cs" />
+    <Compile Include="Models\RecordRepository.cs" />
+    <Compile Include="Entities\Book.cs" />
+    <Compile Include="Entities\Member.cs" />
+    <Compile Include="Entities\Librarian.cs" />
+    <Compile Include="Entities\Record.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
