@@ -70,13 +70,14 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
+    <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -95,9 +96,6 @@
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Scripts\jquery-2.1.1.min.js" />
-    <Content Include="Scripts\jquery-2.1.1.js" />
-    <Content Include="Scripts\jquery-2.1.1-vsdoc.js" />
     <Content Include="scripts\materialize\materialize.min.js" />
     <Content Include="scripts\materialize\materialize.js" />
     <Content Include="content\materialize\fonts\roboto\Roboto-Thin.woff" />
@@ -136,9 +134,15 @@
     <Content Include="content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
     <Content Include="content\materialize\css\materialize.min.css" />
     <Content Include="content\materialize\css\materialize.css" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1-vsdoc.js" />
+    <Content Include="Scripts\main.css" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-2.1.1.min.map" />
     <None Include="content\materialize\fonts\roboto\Roboto-Thin.woff2" />
     <None Include="content\materialize\fonts\roboto\Roboto-Regular.woff2" />
     <None Include="content\materialize\fonts\roboto\Roboto-Medium.woff2" />
@@ -151,6 +155,8 @@
     <None Include="content\materialize\font\roboto\Roboto-Bold.woff2" />
     <None Include="content\materialize\font\material-design-icons\Material-Design-Icons.woff2" />
     <None Include="content\materialize\font\material-design-icons\LICENSE.txt" />
+    <None Include="Scripts\jquery-3.2.1.slim.min.map" />
+    <None Include="Scripts\jquery-3.2.1.min.map" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
