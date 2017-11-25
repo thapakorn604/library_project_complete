@@ -5,8 +5,13 @@ namespace MVCLibraryproject.Models
 {
     public class LibraryRepository : ILibraryRepository
     {
-        public LibraryRepository()
+
+        private static LibraryRepository LibraryRepository = new LibraryRepository();
+
+        private LibraryRepository()
         {
+            
         }
+
     }
 }

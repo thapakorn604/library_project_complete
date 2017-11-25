@@ -5,8 +5,17 @@ namespace MVCLibraryproject.Models
 {
     public class MemberRepository : IMemberRepository
     {
-        public MemberRepository()
+
+        private static MemberRepository MemberRepository = new MemberRepository();
+
+        private List<Member> MemberList;
+
+        private MemberRepository()
         {
+            MemberList = new List<Member>();
         }
+
+        public static MemberRepository Instance => MemberRepository;
+
     }
 }
