@@ -114,6 +114,13 @@
     <Content Include="packages.config" />
     <Content Include="scripts\materialize\materialize.min.js" />
     <Content Include="scripts\materialize\materialize.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1-vsdoc.js" />
+    <Content Include="Scripts\main.css" />
     <Content Include="content\materialize\fonts\roboto\Roboto-Thin.woff" />
     <Content Include="content\materialize\fonts\roboto\Roboto-Thin.ttf" />
     <Content Include="content\materialize\fonts\roboto\Roboto-Thin.eot" />
@@ -150,15 +157,10 @@
     <Content Include="content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
     <Content Include="content\materialize\css\materialize.min.css" />
     <Content Include="content\materialize\css\materialize.css" />
-    <Content Include="Scripts\main.js" />
-    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
-    <Content Include="Scripts\jquery-3.2.1.slim.js" />
-    <Content Include="Scripts\jquery-3.2.1.min.js" />
-    <Content Include="Scripts\jquery-3.2.1.js" />
-    <Content Include="Scripts\jquery-3.2.1-vsdoc.js" />
-    <Content Include="Scripts\main.css" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Scripts\jquery-3.2.1.slim.min.map" />
+    <None Include="Scripts\jquery-3.2.1.min.map" />
     <None Include="content\materialize\fonts\roboto\Roboto-Thin.woff2" />
     <None Include="content\materialize\fonts\roboto\Roboto-Regular.woff2" />
     <None Include="content\materialize\fonts\roboto\Roboto-Medium.woff2" />
@@ -171,8 +173,6 @@
     <None Include="content\materialize\font\roboto\Roboto-Bold.woff2" />
     <None Include="content\materialize\font\material-design-icons\Material-Design-Icons.woff2" />
     <None Include="content\materialize\font\material-design-icons\LICENSE.txt" />
-    <None Include="Scripts\jquery-3.2.1.slim.min.map" />
-    <None Include="Scripts\jquery-3.2.1.min.map" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
