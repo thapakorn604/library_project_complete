@@ -19,5 +19,34 @@ namespace MVCLibraryproject.Models
 
         public static BookRepository Instance => _BookRepository;
 
+        public void AddBook(Book book)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Book GetBook(string bookID)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Book> GetBookList(string query)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveBook(Book book)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ReplaceBook(Book previousBook, Book currentBook)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Size()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

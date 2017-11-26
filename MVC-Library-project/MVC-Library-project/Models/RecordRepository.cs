@@ -19,5 +19,34 @@ namespace MVCLibraryproject.Models
 
         public static RecordRepository Instance => _RecordRepository;
 
+        public void AddRecord(Record record)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Record GetRecord(string RecordID)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Record> GetRecordList(string query)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveRecord(Record record)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ReplaceRecord(Record previousRecord, Record currentRecord)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Size()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

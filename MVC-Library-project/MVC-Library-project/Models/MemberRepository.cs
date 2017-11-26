@@ -19,5 +19,34 @@ namespace MVCLibraryproject.Models
 
         public static MemberRepository Instance => _MemberRepository;
 
+        public void AddMember(Member member)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Member GetMember(string MemberID)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Member> GetMemberList(string query)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveMember(Member member)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ReplaceMember(Member previousMember, Member currentMember)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Size()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

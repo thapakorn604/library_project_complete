@@ -13,5 +13,19 @@ namespace MVCLibraryproject.Models
             
         }
 
+        public bool Borrow(int memberID, int bookID)
+        {
+            throw new NotImplementedException();
+        }
+
+        public double CalculateFee(int recordID)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Return(int recordID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
