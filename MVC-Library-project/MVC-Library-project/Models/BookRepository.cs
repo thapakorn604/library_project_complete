@@ -10,7 +10,7 @@ namespace MVCLibraryproject.Models
 
         private static BookRepository _BookRepository = new BookRepository();
 
-        private List<Book> BookList;
+        public List<Book> BookList;
 
         private BookRepository()
         {
@@ -21,32 +21,55 @@ namespace MVCLibraryproject.Models
 
         public void AddBook(Book book)
         {
-            throw new NotImplementedException();
+            _BookRepository.BookList.Add(book);
         }
 
         public Book GetBook(string bookID)
         {
-            throw new NotImplementedException();
+            foreach (Book item in _BookRepository.BookList)
+            {
+                if (item.ID.Equals(bookID))
+                {
+                    return item;
+                }
+            }
+            return null;
         }
 
         public List<Book> GetBookList(string query)
         {
-            throw new NotImplementedException();
+            switch (query.ToLower())
+            {
+                case "all":
+                    return _BookRepository.BookList;
+                default:
+                    return null;
+            }
         }
 
         public void RemoveBook(Book book)
         {
-            throw new NotImplementedException();
+            _BookRepository.BookList.Remove(book);
         }
 
         public void ReplaceBook(Book previousBook, Book currentBook)
         {
-            throw new NotImplementedException();
+            int index = -1;
+            for (int i = 0; i < _BookRepository.BookList.Count; i++)
+            {
+                if(_BookRepository.BookList[i].ID.Equals(previousBook))
+                {
+                    index = i;
+                }
+            }
+            _BookRepository.BookList.Remove(previousBook);
+            _BookRepository.BookList.Insert(index, currentBook);
+
         }
 
         public int Size()
         {
-            throw new NotImplementedException();
+            return _BookRepository.BookList.Count;
         }
     }
 }
