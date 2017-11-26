@@ -80,6 +80,7 @@
     <Folder Include="img\" />
     <Folder Include="Abstract\" />
     <Folder Include="Entities\" />
+    <Folder Include="content\materialize\css\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -155,8 +156,9 @@
     <Content Include="content\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
     <Content Include="content\materialize\font\material-design-icons\Material-Design-Icons.svg" />
     <Content Include="content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
-    <Content Include="content\materialize\css\materialize.min.css" />
-    <Content Include="content\materialize\css\materialize.css" />
+    <Content Include="content\materialize\css\material.css" />
+    <Content Include="content\materialize\css\material.min.css" />
+    <Content Include="img\bg1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
