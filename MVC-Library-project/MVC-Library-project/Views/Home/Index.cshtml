@@ -1,17 +1,6 @@
 ﻿<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="./Content/materialize/css/materialize.css" rel="stylesheet">
-    <script src="./Scripts/jquery-3.2.1.js"></script>
-    <script src="./Scripts/materialize/materialize.js"></script>
-    <script src="./Scripts/main.js"></script>
-    <title>Apfel's Library</title>
-</head>
-
+@Html.Partial("_Header")
 <body>
     <!-- NAVBAR -->
     @Html.Partial("_Navbar")
@@ -27,7 +16,7 @@
                             <h5 class="header col s12 white-text">Welcome to our responsive MVC framework based on Material Design eiei</h5>
                         </div>
                         <div class="row center">
-                            <a href="#" id="download-button" class="btn-large waves-effect waves-light brown lighten-1">Get Started</a>
+                            <a href="#" id="download-button" class="btn-large waves-effect waves-light brown darken-2">Get Started</a>
                         </div>
                 <br><br>
                 </div>
@@ -74,32 +63,6 @@
     </div>
   </div>
 	<!-- END BODY -->
-
-    <div class="container">
-      <div class="row">
-
-          <div class="col s6 offset-s3 z-depth-1">
-            <h5 id="title">Login</h5>
-            <form>
-            <div class="input-field" id="username">
-              <input  type="text" class="validate">
-              <label for="username">Username</label>
-          </div>
-          <div class="input-field" id="password">
-            <input  type="password" class="validate">
-            <label for="password">Password</label>
-        </div>
-        <a class="waves-effect waves-light btn" id="login-btn">Login</a>
-        
-        </form>
-
-        </div>
-      </div>
-
-    </div>
-
-   
-	
     <!-- FOOTER -->
    @Html.Partial("_Footer")
     <!-- END FOOTER -->

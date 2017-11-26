@@ -23,5 +23,9 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
+        public ViewResult Login()
+        {
+            return View();
+        }
     }
 }
