@@ -9,7 +9,17 @@ namespace MVCLibraryproject.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ViewResult Index()
+        {
+            return View();
+        }
+
+        public ViewResult Service()
+        {
+            return View();
+        }
+
+        public ViewResult History()
         {
             return View();
         }
