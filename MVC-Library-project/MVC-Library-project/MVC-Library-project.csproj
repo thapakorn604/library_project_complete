@@ -163,7 +163,7 @@
     <Content Include="content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
     <Content Include="content\materialize\css\material.css" />
     <Content Include="content\materialize\css\material.min.css" />
-    <Content Include="img\bg1.jpg" />
+    <Content Include="img\bg2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
