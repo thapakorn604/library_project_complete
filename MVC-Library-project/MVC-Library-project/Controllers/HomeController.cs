@@ -9,14 +9,18 @@ namespace MVCLibraryproject.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ViewResult Index()
         {
-            var mvcName = typeof(Controller).Assembly.GetName();
-            var isMono = Type.GetType("Mono.Runtime") != null;
+            return View();
+        }
 
-            ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
-            ViewData["Runtime"] = isMono ? "Mono" : ".NET";
+        public ViewResult Service()
+        {
+            return View();
+        }
 
+        public ViewResult History()
+        {
             return View();
         }
     }
