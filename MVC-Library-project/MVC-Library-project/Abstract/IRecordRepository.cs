@@ -11,6 +11,6 @@ namespace MVCLibraryproject.Abstract
         void ReplaceRecord(Record previousRecord, Record currentRecord);
         Record GetRecord(String RecordID);
         List<Record> GetRecordList(string query);
-        int Size();
+        int Size { get; }
     }
 }

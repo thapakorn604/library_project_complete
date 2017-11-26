@@ -21,32 +21,51 @@ namespace MVCLibraryproject.Models
 
         public void AddRecord(Record record)
         {
-            throw new NotImplementedException();
+           RecordList.Add(record);
         }
 
-        public Record GetRecord(string RecordID)
+        public Record GetRecord(string recordID)
         {
-            throw new NotImplementedException();
+            foreach (Record item in RecordList)
+            {
+                if (item.ID.Equals(recordID))
+                {
+                    return item;
+                }
+            }
+            return null;
         }
 
         public List<Record> GetRecordList(string query)
         {
-            throw new NotImplementedException();
+            switch (query.ToLower())
+            {
+                case "all":
+                    return RecordList;
+                default:
+                    return null;
+            }
         }
 
         public void RemoveRecord(Record record)
         {
-            throw new NotImplementedException();
+            RecordList.Remove(record);   
         }
 
         public void ReplaceRecord(Record previousRecord, Record currentRecord)
         {
-            throw new NotImplementedException();
+            int index = -1;
+            for (int i = 0; i < RecordList.Count; i++)
+            {
+                if (RecordList[i].ID.Equals(previousRecord))
+                {
+                    index = i;
+                }
+            }
+            RecordList.Remove(previousRecord);
+            RecordList.Insert(index, currentRecord);
         }
 
-        public int Size()
-        {
-            throw new NotImplementedException();
-        }
+        public int Size => RecordList.Count;
     }
 }
