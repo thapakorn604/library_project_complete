@@ -7,8 +7,8 @@ namespace MVCLibraryproject.Models
 {
     public class LibrarianRepository
     {
-        //it has an error
-       // private static LibrarianRepository LibrarianRepository = new LibrarianRepository();
+        
+        private static LibrarianRepository _LibrarianRepository = new LibrarianRepository();
 
         private List<Librarian> LibrarianList;
 
@@ -17,7 +17,7 @@ namespace MVCLibraryproject.Models
             LibrarianList = new List<Librarian>();
         }
 
-      //  public static LibrarianRepository Instance => LibrarianRepository;
+        public static LibrarianRepository Instance => _LibrarianRepository;
 
     }
 }

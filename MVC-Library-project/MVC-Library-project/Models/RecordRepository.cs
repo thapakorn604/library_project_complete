@@ -8,7 +8,7 @@ namespace MVCLibraryproject.Models
     public class RecordRepository : IRecordRepository
     {
 
-      //  private static RecordRepository RecordRepository = new RecordRepository();
+        private static RecordRepository _RecordRepository = new RecordRepository();
 
         private List<Record> RecordList;
 
@@ -17,7 +17,7 @@ namespace MVCLibraryproject.Models
             RecordList = new List<Record>();
         }
 
-      //  public static RecordRepository Instance => RecordRepository;
+        public static RecordRepository Instance => _RecordRepository;
 
     }
 }

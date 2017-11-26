@@ -8,7 +8,7 @@ namespace MVCLibraryproject.Models
     public class BookRepository : IBookRepository
     {
 
-        private static BookRepository BookDepository = new BookRepository();
+        private static BookRepository _BookRepository = new BookRepository();
 
         private List<Book> BookList;
 
@@ -17,7 +17,7 @@ namespace MVCLibraryproject.Models
             BookList = new List<Book>();
         }
 
-        public static BookRepository Instance => BookDepository;
+        public static BookRepository Instance => _BookRepository;
 
     }
 }
