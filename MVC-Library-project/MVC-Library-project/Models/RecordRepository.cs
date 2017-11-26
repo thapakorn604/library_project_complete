@@ -21,12 +21,12 @@ namespace MVCLibraryproject.Models
 
         public void AddRecord(Record record)
         {
-            _RecordRepository.RecordList.Add(record);
+           RecordList.Add(record);
         }
 
         public Record GetRecord(string recordID)
         {
-            foreach (Record item in _RecordRepository.RecordList)
+            foreach (Record item in RecordList)
             {
                 if (item.ID.Equals(recordID))
                 {
@@ -41,7 +41,7 @@ namespace MVCLibraryproject.Models
             switch (query.ToLower())
             {
                 case "all":
-                    return _RecordRepository.RecordList;
+                    return RecordList;
                 default:
                     return null;
             }
@@ -49,23 +49,23 @@ namespace MVCLibraryproject.Models
 
         public void RemoveRecord(Record record)
         {
-            _RecordRepository.RecordList.Remove(record);   
+            RecordList.Remove(record);   
         }
 
         public void ReplaceRecord(Record previousRecord, Record currentRecord)
         {
             int index = -1;
-            for (int i = 0; i < _RecordRepository.RecordList.Count; i++)
+            for (int i = 0; i < RecordList.Count; i++)
             {
-                if (_RecordRepository.RecordList[i].ID.Equals(previousRecord))
+                if (RecordList[i].ID.Equals(previousRecord))
                 {
                     index = i;
                 }
             }
-            _RecordRepository.RecordList.Remove(previousRecord);
-            _RecordRepository.RecordList.Insert(index, currentRecord);
+            RecordList.Remove(previousRecord);
+            RecordList.Insert(index, currentRecord);
         }
 
-        public int Size => _RecordRepository.RecordList.Count;
+        public int Size => RecordList.Count;
     }
 }
