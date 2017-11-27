@@ -11,6 +11,9 @@ namespace MVCLibraryproject.Controllers
 {
     public class BookController : Controller
     {
+        public ActionResult Index(){
+            return View();
+        }
         [HttpGet]
         public ViewResult Add()
         {

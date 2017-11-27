@@ -83,6 +83,7 @@
     <Folder Include="content\materialize\css\" />
     <Folder Include="Views\Member\" />
     <Folder Include="Views\Librarian\" />
+    <Folder Include="Views\Book\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -180,6 +181,7 @@
     <Content Include="img\grizz.jpg" />
     <Content Include="img\icebear.jpg" />
     <Content Include="img\user-bg.jpg" />
+    <Content Include="Views\Book\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
