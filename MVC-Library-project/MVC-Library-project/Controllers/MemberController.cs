@@ -8,6 +8,8 @@ namespace MVCLibraryproject.Controllers
 {
     public class MemberController : Controller
     {
-        
+        public ViewResult Index(){
+            return View();
+        }
     }
 }

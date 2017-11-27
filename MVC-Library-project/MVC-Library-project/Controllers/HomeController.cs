@@ -27,5 +27,13 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
+        public ViewResult Member()
+        {
+            return View();
+        }
+        public ViewResult Librarian()
+        {
+            return View();
+        }
     }
 }
