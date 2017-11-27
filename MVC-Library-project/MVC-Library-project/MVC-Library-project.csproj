@@ -176,6 +176,9 @@
     <Content Include="Views\Librarian\Index.cshtml" />
     <Content Include="Content\materialize\css\materialize.css" />
     <Content Include="Content\materialize\css\materialize.min.css" />
+    <Content Include="img\grizz.jpg" />
+    <Content Include="img\icebear.jpg" />
+    <Content Include="img\user-bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
