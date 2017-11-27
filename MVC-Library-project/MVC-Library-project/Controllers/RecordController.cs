@@ -8,9 +8,6 @@ namespace MVCLibraryproject.Controllers
 {
     public class RecordController : Controller
     {
-        public ActionResult Index()
-        {
-            return View ();
-        }
+        
     }
 }

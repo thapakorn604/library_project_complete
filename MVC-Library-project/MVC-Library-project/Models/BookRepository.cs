@@ -15,6 +15,11 @@ namespace MVCLibraryproject.Models
         private BookRepository()
         {
             BookList = new List<Book>();
+            BookList.Add(new Book("BOOK-1", "Taduno's Song", "Odafe Atogun", "Canongate Books Ltd", "9781782118138", 240));
+            BookList.Add(new Book("BOOK-2", "Wake Me When I'm Gone", "Odafe Atogun", "Canongate Books Ltd", "9781782118428", 208));
+            BookList.Add(new Book("BOOK-3", "History of Wolves", "Emily Fridlund", "Grove Press", "9780802127389", 291));
+            BookList.Add(new Book("BOOK-4", "What We Lose", "Zinzi Clemmons", "VIKING",  "9780735221710", 213));
+            BookList.Add(new Book("BOOK-5", "Home Fire", "Kamila Shamsie", "Riverhead Books", "9780735217683", 276));
         }
 
         public static BookRepository Instance => _BookRepository;

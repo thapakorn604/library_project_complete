@@ -8,6 +8,9 @@ namespace MVCLibraryproject.Controllers
 {
     public class LibrarianController : Controller
     {
-       
+        public ViewResult Index()
+        {
+            return View();
+        }
     }
 }
