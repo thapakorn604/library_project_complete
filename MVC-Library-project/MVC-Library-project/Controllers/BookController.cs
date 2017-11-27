@@ -11,9 +11,11 @@ namespace MVCLibraryproject.Controllers
 {
     public class BookController : Controller
     {
-        public ActionResult Index(){
+        public ActionResult Index()
+        {
             return View();
         }
+
         [HttpGet]
         public ViewResult Add()
         {
@@ -46,10 +48,22 @@ namespace MVCLibraryproject.Controllers
             return View();
         }
 
-        public ActionResult Delete(string bookID)
+        public ActionResult Remove(string bookID)
         {
             BookRepository.Instance.RemoveBook(BookRepository.Instance.GetBook(bookID));
             return View();
+        }
+
+        [HttpGet]
+        public ActionResult Search()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Search(string query)
+        {
+            return View(BookRepository.Instance.GetBookList(query));
         }
     }
 }
