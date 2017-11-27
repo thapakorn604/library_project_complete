@@ -14,14 +14,18 @@ namespace MVCLibraryproject.Entities
         [Display(Name = "Last Name")]
         public string LastName;
 
+        [Display(Name = "Gender")]
+        public string Gender;
+
         [Display(Name = "Username")]
         public string Username;
 
         [Display(Name = "Password")]
         public string Password;
 
-        public Librarian()
+        public Librarian(string librarianID, string firstName, string lastName, string gender, string username, string password)
         {
+            ID = librarianID; FirstName = firstName; LastName = lastName; Gender = gender; Username = username; Password = password;
         }
     }
 }

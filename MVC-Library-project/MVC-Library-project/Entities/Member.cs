@@ -14,6 +14,9 @@ namespace MVCLibraryproject.Entities
         [Display(Name = "Last Name")]
         public string LastName;
 
+        [Display(Name = "Gender")]
+        public string Gender;
+
         [Display(Name = "Phone Number")]
         public string PhoneNumber;
 
@@ -23,8 +26,9 @@ namespace MVCLibraryproject.Entities
         [Display(Name = "Password")]
         public string Password;
 
-        public Member()
+        public Member(string memberID, string firstName, string lastName, string gender, string phoneNumber, string username, string password)
         {
+            ID = memberID; FirstName = firstName; LastName = lastName; Gender = gender; PhoneNumber = phoneNumber; Username = username; Password = password;
         }
     }
 }
