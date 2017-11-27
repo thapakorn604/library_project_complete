@@ -17,8 +17,8 @@ namespace MVCLibraryproject.Entities
         [Display(Name = "Publisher")]
         public string Publisher;
 
-        [Display(Name = "Category")]
-        public string Category;
+        //[Display(Name = "Category")]
+        //public string Category;
 
         [Display(Name = "ISBN")]
         public string ISBN;
@@ -29,8 +29,9 @@ namespace MVCLibraryproject.Entities
         [Display(Name = "Availability")]
         public Boolean IsAvailable;
 
-        public Book()
+        public Book(string bookID, string title, string author, string publisher,  string isbn, int pages)
         {
+            ID = bookID; Title = title; Author = author; Publisher = publisher; ISBN = isbn; Pages = pages; IsAvailable = true;
         }
     }
 }

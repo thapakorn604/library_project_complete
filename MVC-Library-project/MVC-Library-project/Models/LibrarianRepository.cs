@@ -15,6 +15,8 @@ namespace MVCLibraryproject.Models
         private LibrarianRepository()
         {
             LibrarianList = new List<Librarian>();
+            LibrarianList.Add(new Librarian("LIBRARIAN-1", "Kevin", "Miller", "male", "kmiller", "kmiller"));
+            LibrarianList.Add(new Librarian("LIBRARIAN-2", "Ellen", "Cutting", "female", "ecutting", "ecutting"));
         }
 
         public static LibrarianRepository Instance => _LibrarianRepository;
