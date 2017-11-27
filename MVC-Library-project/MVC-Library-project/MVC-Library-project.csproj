@@ -82,6 +82,7 @@
     <Folder Include="Entities\" />
     <Folder Include="content\materialize\css\" />
     <Folder Include="Views\Member\" />
+    <Folder Include="Views\Librarian\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -166,12 +167,13 @@
     <Content Include="content\materialize\css\material.min.css" />
     <Content Include="img\bg2.jpg" />
     <Content Include="Views\Shared\_Footer.cshtml" />
-    <Content Include="Views\Shared\_Navbar_sth.cshtml" />
+    <Content Include="Views\Shared\_Navbar_librarian.cshtml" />
     <Content Include="Views\Shared\_Header.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Shared\_Navbar_home.cshtml" />
     <Content Include="Views\Member\Index.cshtml" />
     <Content Include="Views\Shared\_Navbar_member.cshtml" />
+    <Content Include="Views\Librarian\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />

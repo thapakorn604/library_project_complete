@@ -10,6 +10,14 @@
     color: rgba(255,255,255,.9);
 }
 
+#sidenav-bg {
+    width: 400px;
+}
+#sidenav-user {
+    width: 64px;
+}
+
+
     .parallax-container .section {
         width: 100%;
     }
@@ -31,4 +39,3 @@
     }
 }
 
-font
