@@ -6,7 +6,7 @@ namespace MVCLibraryproject.Entities
     public class Record
     {
         [Display(Name = "Record ID")]
-        public int ID;
+        public string ID;
 
         [Display(Name = "Book ID")]
         public string BookID;
@@ -15,7 +15,7 @@ namespace MVCLibraryproject.Entities
         public string BookTitle;
 
         [Display(Name = "Member ID")]
-        public int MemberID;
+        public string MemberID;
 
         [Display(Name = "Member Name")]
         public string MemberName;
@@ -30,10 +30,11 @@ namespace MVCLibraryproject.Entities
         public DateTime ReturnDate;
 
         [Display(Name = "Overdue")]
-        public Boolean IsOverDue;
+        public bool IsOverDue;
 
-        public Record()
+        public Record(string recordID, string bookID, string bookTitle, string memberID, DateTime borrowDate, DateTime dueDate, DateTime returnDate)
         {
+            ID = recordID; BookID = bookID; BookTitle = bookTitle; MemberID = memberID; BorrowDate = borrowDate; DueDate = dueDate; ReturnDate = returnDate;
         }
     }
 }
