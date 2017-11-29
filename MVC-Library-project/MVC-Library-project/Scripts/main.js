@@ -1,5 +1,5 @@
 ﻿$(document).ready (function(){
-    $(".button-collapse").sideNav();
+    $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.dropdown-button').dropdown({
       constrainWidth: false, // Does not change width of dropdown to that of the activator
