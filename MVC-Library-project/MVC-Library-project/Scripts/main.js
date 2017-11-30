@@ -9,7 +9,13 @@
       alignment: 'left', // Displays dropdown with edge aligned to the left of button
       stopPropagation: true // Stops event propagation
     }
+<<<<<<< HEAD
+=======
   );
-   $('.modal-trigger').leanModal(); //ฟวยยยย คำสั่งชาติไหนแล้ว ชาวบ้านเขาไป 1.0 รีบอัพเดทได้ล้าววว ถถถถถถ
+    $('.modal').modal();
+>>>>>>> e8deae3af0c974ab75e5587fb9d753ab313e4bbc
 
+  );
 });
+
+ 

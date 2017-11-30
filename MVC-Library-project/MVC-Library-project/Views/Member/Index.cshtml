@@ -1,8 +1,131 @@
 ﻿<html lang="en">
+	<!-- HEADER -->
 	@Html.Partial("_Header")
+    <!-- END HEADER -->
+
 	<body>
+		<!-- NAVBAR -->
 		@Html.Partial("_Navbar_member")
-		@Html.Partial("_Footer")
-	</body>
+        <!-- END NAV -->
+
+		<!-- BODY -->
+        <div>
+
+        <!-- HEAD NAME-->
+			<div class="container">
+                <br><br>
+                    <h1 class="header center brown-text text-darken-4">Member's Library</h1>
+                        <div class="row center">
+                            <div class="parallax"><img src="img/bg2.jpg"></div>
+                            <div class="row">
+                         <div class="card-panel">
+                            <span class="grey-text  text-left">Seacrh member</span>
+							 <i class="material-icons right">search</i> 
+                        </div>
+					
+					<!--END HEAD NAME-->
+
+                    <!-- TABLE -->
+					<table class="striped" style="text-center">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Surename</th>
+			<th>Tel.</th>
+			<th>Birthday</th>
+			<th>Social Security Number</th>
+			<th>Address</th>
+			<th>Other</th>
+									
+									
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Ackerley</td>
+            <td>Salvador</td>
+			<td>078 5848 0078 </td>
+			<td>1/23/1995</td>
+			<td>364-19-5476</td>
+			<td>77 Guild Street,LONDON,N14 3EG</td>
+			<td><div class="card-panel">
+                            <span class="blue-text  text-center">More</span></div>
+					</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Maureen</td>
+			<td>Tustin</td>
+            <td>985-685-6801</td>
+			<td>27/01/1997</td>
+            <td>409-38-2958</td>
+            <td>518 Woodland Avenue</td>
+									<td><div class="card-panel">
+                            <span class="blue-text  text-center">More</span></div>
+                    </td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Matt</td>
+			<td>Washington</td>
+            <td>808-931-0322</td>
+			<td>12/9/1999</td>
+            <td>751-05-3005</td>
+            <td>3888 Park Boulevard, Weott, 95571</td>
+					<td><div class="card-panel">
+                    <span class="blue-text  text-center">More</span></div>
+                    </td>
+          </tr>
+								 <tr>
+            <td>4.</td>
+            <td>Chelsey</td>
+            <td>Bebbington</td>
+			<td>954-555-8954</td>
+            <td>6/19/2000</td>
+			<td>591-49-0124</td>
+            <td>3901 Kenwood Place, Orlando, Florida</td>
+                      <td><div class="card-panel">
+                     <span class="blue-text  text-center">More</span></div>
+                    </td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Daljit </td>
+            <td>Kalsi</td>
+			<td>808-931-0322</td>
+            <td>12/8/1995</td>
+			<td>754-23-7808</td>
+            <td>2102 Randall Drive,Honolulu ,Hawaii</td>
+                      <td><div class="card-panel">
+                     <span class="blue-text  text-center">More</span></div>
+                    </td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Akram </td>
+            <td>Masih</td>
+			<td>704-949-4637</td>
+            <td>11/4/1999</td>
+			<td>242-72-7761</td>
+            <td>2352 Kelly Street, Charlotte,North Carolina</td>
+                     <td><div class="card-panel">
+                    <span class="blue-text  text-center">More</span></div>
+                    </td>
+          </tr>
+        </tbody>
+      </table>
+       </div>
+      </div>
+</div>
+</div>
+</body>
+	<div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+		
+		<!-- Footer-->@Html.Partial("_Footer")
 </html>
 
