@@ -10,6 +10,6 @@
       stopPropagation: true // Stops event propagation
     }
   );
-   $('.modal-trigger').leanModal(); //ฟวยยยย คำสั่งชาติไหนแล้ว ชาวบ้านเขาไป 1.0 รีบอัพเดทได้ล้าววว ถถถถถถ
+    $('.modal').modal();
 
 });
