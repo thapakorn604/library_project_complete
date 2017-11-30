@@ -26,11 +26,7 @@ namespace MVCLibraryproject.Entities
         [Display(Name = "Password")]
         public string Password;
 
-
-
-
-
-        public Member(string memberID, string firstName, string lastName, string gender, 
+ public Member(string memberID, string firstName, string lastName, string gender, 
                       string phoneNumber, string username, string password)
         {
             ID = memberID; FirstName = firstName; LastName = lastName; Gender = gender; 
