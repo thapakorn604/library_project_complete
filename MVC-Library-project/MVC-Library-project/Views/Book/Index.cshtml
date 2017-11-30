@@ -2,22 +2,21 @@
 <html>
     @Html.Partial("_Header")
 <body>
-<<<<<<< HEAD
-		 <!-- NAVBAR -->
+         <!-- NAVBAR -->
     @Html.Partial("_Navbar_book")
         <!-- END NAV -->
-		
+        
 <!-- Table -->
-		<section>
-			<div class="container">
-				<table class="table table-striped custab">
+        <section>
+            <div class="container">
+                <table class="table table-striped custab">
                 <thead>
               
             <tr>
                 <th>ID</th>
                 <th>Title</th>
                 <th>Sub-title</th>
-				<th>Avaliable</th>
+                <th>Avaliable</th>
                 <th class="text-center">Manage</th>
             </tr>
                 </thead>
@@ -25,26 +24,26 @@
                 <td>1</td>
                 <td>Harry Potter</td>
                 <td>The Goblet of Fire</td>
-				<td>3</td>
+                <td>3</td>
                 <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal1"><i class="large material-icons">mode_edit</i></a></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Game Of Throne</td>
                 <td>A Song of Ice and Fire</td>
-				<td>4</td>		
+                <td>4</td>      
                 <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal2"><i class="large material-icons">mode_edit</i></a></td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Percy Jackson</td>
                 <td>Sea of Monsters</td>
-				<td>4</td>
+                <td>4</td>
                 <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal3"><i class="large material-icons">mode_edit</i></a></td>
             </tr>
 
-				</table>
-			</div>
+                </table>
+            </div>
 
             <!-- Modal Structure -->
             <div id="modal1" class="modal">
@@ -64,7 +63,7 @@
                     </div>
                 </div>
             </div>
-			<!-- Modal Structure 2 -->
+            <!-- Modal Structure 2 -->
             <div id="modal2" class="modal">
                 <div class="modal-content">
                     <h4>Modal Header2</h4>
@@ -83,7 +82,7 @@
                 </div>
             </div>
 
-			<!-- Modal Structure 3-->
+            <!-- Modal Structure 3-->
             <div id="modal3" class="modal">
                 <div class="modal-content">
                     <h4>Modal Header3</h4>
@@ -101,105 +100,15 @@
                     </div>
                 </div>
             </div>
-			
-			</section>
+            
+            </section>
     
-		    <div class="fixed-action-btn horizontal">
+            <div class="fixed-action-btn horizontal">
             <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-		</div>
-=======
-		<!-- Search bar -->
-        <section>
-    <div class="navbar-fixed">
-        <nav role="navigation" class="white">
-            <div class="nav-wrapper container">
-
-                <a href="#" class="brand-logo brown-text darken-2">
-                    <i class="material-icons left">adb</i>
-                    Apfel's Library
-                </a>
-
-                <a href="#" data-activates="mobile" class="button-collapse brown-text darken-4">
-                    <i class="material-icons">menu</i>
-                </a>
-				<ul class="right">
-							<li>
-								<a class="button-collapse brown-text darken-4">
-                    <i class="material-icons">search</i>
-                </a>
-							</li>
-						</ul>
-			    
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a class="dropdown-button brown-text darken-4" data-activates="setting-drop">
-                            <i class="material-icons">settings</i></a>
-                    </li>
-                </ul>
-
-                <!--Responsive-->
-                <ul class="side-nav" id="mobile">
-                    <li>
-                        <a href="#">
-                            <i class="material-icons left">account_circle</i>User Name</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li >
-                        <a class="brown-text darken-4" href="">Search</a>
-                    </li>
-                   <li>
-                        <i class="material-icons right brown-text darken-4">arrow_drop_down</i>
-                        <a class="dropdown-button brown-text darken-4" data-activates="manage-drop">Manage</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a class="red-text" href="#!"><i class="material-icons left">exit_to_app</i>Log out</a>
-                    </li>
-                    <li class="divider"></li>
-                </ul>
-                
-               <!--Browser-->
-                <ul id="setting-drop" class="dropdown dropdown-content">
-                    <li>
-                        <a href="#">
-                            <i class="material-icons left brown-text darken-4">account_circle</i>User Name</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a class="red-text" href="#!"><i class="material-icons left">exit_to_app</i>Log out</a>
-                    </li>
-                </ul>
-                
-                <ul id="manage-drop" class="dropdown dropdown-content">
-                    <li>
-                        <a class="brown-text darken-4" href="#!"><i class="material-icons left">book</i>Book</a>
-                    </li>
-            
-                    <li>
-                        <a class="brown-text darken-4" href="#!"><i class="material-icons left">contacts</i>Member</a>
-                    </li>
-                </ul>
-                <ul id="manage-drop-desktop" class="dropdown-content">
-                    <li>
-                        <a class="brown-text darken-4" href="#!"><i class="material-icons left">book</i>Book</a>
-                    </li>
-            
-                    <li>
-                        <a class="brown-text darken-4" href="#!"><i class="material-icons left">contacts</i>Member</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</section>
-    <!-- Table -->
-		 <div class="fixed-action-btn horizontal">
-    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
         </div>
->>>>>>> b072aae904dbb6ea0c5452fc0d0be9279b8d46a9
-		
+        
     <!-- Footer-->
-		@Html.Partial("_Footer")
+        @Html.Partial("_Footer")
 </body>
 </html>
 
