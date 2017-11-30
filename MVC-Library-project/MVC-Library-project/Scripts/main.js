@@ -10,7 +10,7 @@
       stopPropagation: true // Stops event propagation
     }
   );
-  $('.modal').modal();
-  /* $('.modal-trigger').leanModal(); //modal version 0.97.5 */
+
+  $('.modal-trigger').leanModal(); //modal version 0.97.5
 
 });
