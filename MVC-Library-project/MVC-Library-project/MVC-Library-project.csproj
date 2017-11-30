@@ -181,6 +181,7 @@
     <Content Include="img\icebear.jpg" />
     <Content Include="img\user-bg.jpg" />
     <Content Include="Views\Book\Index.cshtml" />
+    <Content Include="Views\Shared\_Navbar_book.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
