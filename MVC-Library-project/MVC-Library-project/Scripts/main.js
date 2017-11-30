@@ -1,5 +1,5 @@
 ﻿$(document).ready (function(){
-    $('.sidenav').sidenav();
+    $(".button-collapse").sideNav();
     $('.parallax').parallax();
     $('.dropdown-button').dropdown({
       constrainWidth: false, // Does not change width of dropdown to that of the activator
@@ -9,7 +9,8 @@
       alignment: 'left', // Displays dropdown with edge aligned to the left of button
       stopPropagation: true // Stops event propagation
     }
-  );
-   $('.modal-trigger').leanModal(); //ฟวยยยย คำสั่งชาติไหนแล้ว ชาวบ้านเขาไป 1.0 รีบอัพเดทได้ล้าววว ถถถถถถ
 
+  );
 });
+
+ 
