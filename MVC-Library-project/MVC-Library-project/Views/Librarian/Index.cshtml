@@ -1,9 +1,222 @@
 ﻿<html lang="en">
     @Html.Partial("_Header")
     <body>
-        @Html.Partial("_Navbar_librarian")
-        @Html.Partial("_Footer")
-    </body>
+		<!--Nav bar-->
+	    @Html.Partial("_Navbar_librarian")
+		<!-- end nav-->
+
+<!--table-->
+		  <!-- HEAD NAME-->
+            <div class="container">
+                <br><br>
+                    <h1 class="header center brown-text text-darken-4">Librarain</h1>
+                        <div class="row center">
+                            <div class="parallax"><img src="img/bg2.jpg"></div>
+                            <div class="row">
+                         <div class="card-panel">
+                            <span class="grey-text  text-left">Seacrh Librarain</span>
+                             <i class="material-icons right">search</i> 
+                        </div>
+        <!--END HEAD NAME-->
+
+		<!--Body-->
+		<!--BG --><div class="card-panel #d7ccc8 brown lighten-4">
+         <section>
+            <div class="container">
+                <table class="table table-striped custab highlight centered">
+                <thead>
+             
+			<tr>
+                <th name="librarianID">librarian ID</th>
+                <th name="FirstName">First Name</th>
+                <th name="LastName">Last Name</th>
+                <th name="Gender">Gender</th>
+                <th name="Username">Username</th>
+                <th name="Password">Password</th>
+                <th class="text-center">Manage</th>
+            </tr>
+				</thead>
+			<tr>
+                <td>235</td>
+                <td>Diane</td>
+                <td>Berry</td>
+                <td>Female</td>
+                <td>Diane</td>
+                <td>12diane3</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal1"><i class="large material-icons">mode_edit</i></a></td>
+            </tr>
+			<tr>
+                <td>643</td>
+                <td>Gordon</td>
+                <td>Bond</td>
+                <td>Male</td>
+                <td>Gordon</td>
+                <td>G643ordon</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal2"><i class="large material-icons">mode_edit</i></a></td>
+            </tr>
+			<tr>
+                <td>951</td>
+                <td>Rebecca</td>
+                <td>Avery</td>
+                <td>Female</td>
+                <td>Rebecca</td>
+                <td>Rebecca951</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal3"><i class="large material-icons">mode_edit</i></a></td>
+            </tr>
+								<tr>
+                <td>469</td>
+                <td>Samantha</td>
+                <td>Coleman</td>
+                <td>Female</td>
+                <td>Samantha</td>
+                <td>469Coleman</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal4"><i class="large material-icons">mode_edit</i></a></td>
+            </tr>
+								<tr>
+                <td>309</td>
+                <td>Simon</td>
+                <td>Wallace</td>
+                <td>Male</td>
+                <td>Simon</td>
+                <td>Simon309</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal5"><i class="large material-icons">mode_edit</i></a></td>
+            </tr>
+								<tr>
+                <td>889</td>
+                <td>William</td>
+                <td>Vance</td>
+                <td>Male</td>
+                <td>William</td>
+                <td>William89</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger" data-target="modal6"><i class="large material-icons">mode_edit</i></a></td>
+            </tr>
+								 
+        
+      </table>
+        </div><!-- End bg-->
+
+			<!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="fixed-action-btn horizontal">
+                        <a class="btn-floating btn-large red"><i class="large material-icons">mode_edit</i></a>
+                        <ul>
+                            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Structure 2-->
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header2</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="fixed-action-btn horizontal">
+                        <a class="btn-floating btn-large red"><i class="large material-icons">mode_edit</i></a>
+                        <ul>
+                            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+				<!-- Modal Structure3 -->
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header3</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="fixed-action-btn horizontal">
+                        <a class="btn-floating btn-large red"><i class="large material-icons">mode_edit</i></a>
+                        <ul>
+                            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+				<!-- Modal Structure4 -->
+            <div id="modal4" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header4</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="fixed-action-btn horizontal">
+                        <a class="btn-floating btn-large red"><i class="large material-icons">mode_edit</i></a>
+                        <ul>
+                            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+				<!-- Modal Structure 5-->
+            <div id="modal5" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header5</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="fixed-action-btn horizontal">
+                        <a class="btn-floating btn-large red"><i class="large material-icons">mode_edit</i></a>
+                        <ul>
+                            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+				<!-- Modal Structure 6-->
+            <div id="modal6" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Header6</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="fixed-action-btn horizontal">
+                        <a class="btn-floating btn-large red"><i class="large material-icons">mode_edit</i></a>
+                        <ul>
+                            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+		</section>
+			</div>  
+        </div>
+			</div>
+</div>
+    <div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+		
+        
+	<!--footer -->
+	@Html.Partial("_Footer")
+ </body>   
 </html>
 
 
