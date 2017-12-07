@@ -1,0 +1,164 @@
+﻿<section>   
+
+             <h5 class="center brown-text text-darken-2">Borrowing Management</h5>
+             <div class="search-wrapper card">
+                <form>
+                    <div class="input-field">
+                    <input placeholder="search for avaliable books here" id="search" type="search">
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+           
+                    </div>
+                </form>
+            </div>
+            <div>
+                <table class="table table-striped custab centered responsive-table">
+                <thead>
+              
+            <tr>
+                <th name="bookID">BookID</th>
+                <th name="title">Title</th>
+                <th name="author">Author</th>
+                <th name="publisher">Publisher</th>
+                <th name="isbn">ISBN</th>
+                <th name="pages">Pages</th>
+                <th name="IsAvailable"></th>
+                <th class="text-center"></th>
+            </tr>
+                </thead>
+            <tr>
+                <td>1</td>
+                <td>Harry Potter The Goblet of Fire</td>
+                <td>J.K. ROWLING</td>
+                <td>2017</td>
+                <td>11234567876543511</td>
+                <td>123</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger amber accent-4" data-target="modalForm1">Borrow</a></td>
+                <td class="text-center"><a class="waves-effect waves-light btn-flat modal-trigger" data-target="modal1"><i class="large material-icons">info_outline</i></a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Game Of Throne A Song of Ice and Fire</td>
+                <td>George R. R. Martin</td>   
+                <td>2017</td>
+                <td>1111</td>
+                <td>123</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger amber accent-4" data-target="modalForm1">Borrow</a></td>
+                <td class="text-center"><a class="waves-effect waves-light btn-flat modal-trigger" data-target="modal2"><i class="large material-icons">info_outline</i></a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Percy Jackson Sea of Monsters</td>
+                <td>Rick Riordan</td>
+                <td>2017</td>
+                <td>1111</td>
+                <td>123</td>
+                <td class="text-center"><a class="waves-effect waves-light btn modal-trigger amber accent-4" data-target="modalForm1">Borrow</a></td>
+                <td class="text-center"><a class="waves-effect waves-light btn-flat modal-trigger" data-target="modal3"><i class="large material-icons">info_outline</i></a></td>
+             </tr>
+
+                </table>
+            </div>
+
+            <!-- Modal Form Structure -->
+            <div id="modalForm1" class="modal">
+                <div class="modal-content">
+                    <div class="container">
+                    <div class="section"></div>
+                    <h4>Borrow Form</h4>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                <div class="input-field col s6">
+                                    <input value="Book id from DB" id="bookid" type="text" class="validate">
+                                    <label class="active" for="bookid">Book id</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input value="Book title from DB" id="bookTitle" type="text" class="validate">
+                                    <label for="bookTitle">Book Title</label>
+                                </div>
+                                </div>
+                        
+                                <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="memberID" type="text" class="validate">
+                                    <label for="memberID">Member id</label>
+                                </div>
+                                <!--if member id avaliable is true-->
+                                <div class="input-field col s6">
+                                <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                                <label for="filled-in-box">Avaliable</label>
+                                </div>
+                                </div>
+
+                                <div class="row">
+                                <div class="input-field col s6">
+                                     <input value="member firstname from DB" id="firstname" type="text" class="validate">
+                                     <label for="firstname">Firstname</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input value="member last from DB" id="lastname" type="text" class="validate">
+                                    <label for="lastname">Lastname</label>
+                                </div>
+                                </div>
+                        
+                                <div class="row">
+                                <div class="input-field col s6">
+                                     <input id="dateofBorrow" type="text" class="datepicker">
+                                     <label for="dateofBorrow">Borrow Date</label>
+                                </div>
+                                <div class="input-field col s6">
+                                     <input id="dateofReturn" type="text" class="datepicker">
+                                     <label for="dateofReturn">Return Date</label>
+                                </div>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                </div>
+            <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Disagree</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+            </div>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Book Title</h4>
+                    <p>A bunch of book detail</p>
+                </div>
+             <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Borrow</a>
+            </div>
+            </div>
+            <!-- Modal Structure 2 -->
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Book Title2</h4>
+                    <p>A bunch of book detail</p>
+                </div>
+             <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Borrow</a>
+            </div>
+            </div>
+
+            <!-- Modal Structure 3-->
+             <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <h4>Modal Book Title3</h4>
+                    <p>A bunch of book detail</p>
+                </div>
+             <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Borrow</a>
+            </div>
+            </div>
+            
+            </section>
+    
+            <div class="fixed-action-btn horizontal">
+            <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+
