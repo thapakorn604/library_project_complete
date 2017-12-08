@@ -106,6 +106,7 @@
     <Compile Include="Entities\Member.cs" />
     <Compile Include="Entities\Librarian.cs" />
     <Compile Include="Entities\Record.cs" />
+    <Compile Include="Controllers\LibrarianController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
