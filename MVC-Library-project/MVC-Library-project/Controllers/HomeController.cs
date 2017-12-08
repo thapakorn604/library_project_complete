@@ -13,30 +13,5 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
-
-        public ViewResult Service()
-        {
-            return View();
-        }
-
-        public ViewResult History()
-        {
-            return View();
-        }
-
-        public ViewResult Login()
-        {
-            return View();
-        }
-
-        public ViewResult Member()
-        {
-            return View();
-        }
-
-        public ViewResult Librarian()
-        {
-            return View();
-        }
     }
 }
