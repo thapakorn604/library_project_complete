@@ -172,7 +172,7 @@
     <Content Include="Views\Shared\_Navbar_home.cshtml" />
     <Content Include="Views\Member\Index.cshtml" />
     <Content Include="Views\Shared\_Navbar_member.cshtml" />
-    <Content Include="Views\Librarian\Index.cshtml" />
+    <Content Include="Views\Librarian\Service.cshtml" />
     <Content Include="Content\materialize\css\materialize.css" />
     <Content Include="Content\materialize\css\materialize.min.css" />
     <Content Include="img\grizz.jpg" />
@@ -180,8 +180,13 @@
     <Content Include="img\user-bg.jpg" />
     <Content Include="Views\Book\Index.cshtml" />
     <Content Include="Views\Shared\_Navbar_book.cshtml" />
-    <Content Include="Views\Shared\_borrow.cshtml" />
-    <Content Include="Views\Shared\_return.cshtml" />
+    <Content Include="Views\Shared\_Librarian_borrow.cshtml" />
+    <Content Include="Views\Shared\_Librarian_return.cshtml" />
+    <Content Include="Views\Shared\_Librarian_searchBook.cshtml" />
+    <Content Include="Views\Shared\_Librarian_searchMember.cshtml" />
+    <Content Include="Views\Librarian\Index.cshtml" />
+    <Content Include="Views\Librarian\LibrarianProfile.cshtml" />
+    <Content Include="img\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
