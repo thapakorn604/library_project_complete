@@ -1,0 +1,125 @@
+﻿<section>   
+
+             <h5 class="center brown-text text-darken-2">Return Book</h5>
+             <div class="search-wrapper card hide-on-small-only">
+                <form>
+                    <div class="input-field">
+                    <input id="search" type="search">
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+           
+                    </div>
+                </form>
+            </div>
+            <div>
+                <table class="table table-striped custab centered responsive-table">
+                <thead>
+              
+            <tr>
+                <th name="bookID">ID</th>
+                <th name="title">Title</th>
+                <th name="author">Author</th>
+                <th name="publisher">Publisher</th>
+                <th name="isbn">ISBN</th>
+                <th name="pages">Pages</th>
+                <th name="IsAvailable">Avaliability</th>
+                <th class="text-center"></th>
+            </tr>
+                </thead>
+            <tr>
+                <td>1</td>
+                <td>Harry Potter The Goblet of Fire</td>
+                <td>J.K. ROWLING</td>
+                <td>2017</td>
+                <td>11234567876543511</td>
+                <td>123</td>
+                <td>avalialbe</td>
+              <!--  <td><a class="waves-effect waves-light btn amber accent-4" id="target">Return</a></td> -->
+               <td class="text-center"><a class="waves-effect waves-light btn modal-trigger amber accent-4" data-target="modalConfirm">Return</a></td>
+           </tr>
+                </table>
+            </div>
+
+            <!-- Modal Form Structure -->
+             <div id="modalConfirm" class="modal ">
+                <div class="modal-content">
+                    <h3 class="center-align">Confirm to Return a book?</h3>
+                </div>
+             <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Confirm</a>
+            </div>
+            </div>
+
+            <div>
+                <div class="fixed-action-btn horizontal">
+                <a class="btn btn-floating btn-large waves-effect waves-light red modal-trigger" data-target="modelBorrowForm"><i class="material-icons">add</i></a>
+            </div>
+            </div>
+
+             <!-- Modal Borrow Form Structure -->
+            <!--
+            <div id="modelBorrowForm" class="modal">
+                <div class="modal-content">
+                    <div class="container">
+                    <div class="section"></div>
+                    <h4>Borrow Form</h4>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                <div class="input-field col s6">
+                                    <input value="Book id from DB" id="bookid" type="text" class="validate">
+                                    <label class="active" for="bookid">Book id</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input value="Book title from DB" id="bookTitle" type="text" class="validate">
+                                    <label for="bookTitle">Book Title</label>
+                                </div>
+                                </div>
+                        
+                                <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="memberID" type="text" class="validate">
+                                    <label for="memberID">Member id</label>
+                                </div>
+                          
+                                <div class="input-field col s6">
+                                <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                                <label for="filled-in-box">Avaliable</label>
+                                </div>
+                                </div>
+
+                                <div class="row">
+                                <div class="input-field col s6">
+                                     <input value="member firstname from DB" id="firstname" type="text" class="validate">
+                                     <label for="firstname">Firstname</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input value="member last from DB" id="lastname" type="text" class="validate">
+                                    <label for="lastname">Lastname</label>
+                                </div>
+                                </div>
+                        
+                                <div class="row">
+                                <div class="input-field col s6">
+                                     <input id="dateofBorrow" type="text" class="datepicker">
+                                     <label for="dateofBorrow">Borrow Date</label>
+                                </div>
+                                <div class="input-field col s6">
+                                     <input id="dateofReturn" type="text" class="datepicker">
+                                     <label for="dateofReturn">Return Date</label>
+                                </div>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                </div>
+            <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Disagree</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+            </div>
+            -->
+            </section>
+    
+            
+
