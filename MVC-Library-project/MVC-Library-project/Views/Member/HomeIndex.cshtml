@@ -1,0 +1,110 @@
+﻿<html lang="en">
+
+@Html.Partial("_Header")
+<body>
+    <!-- NAVBAR -->
+    @Html.Partial("_Navbar_home")
+    <!-- END NAV -->
+    <!-- BODY -->
+        <!--parallax-->
+        	<div class="parallax-container">
+                <div class="parallax"><img src="img/book1.jpg"></div>
+                </div>
+                <div class="section white">
+                <div class="row container">
+                <h2 class="header">Hello member!!</h2>
+                <p class="grey-text text-darken-3 lighten-3"> det</p>
+                </div>
+                </div>
+                <div class="parallax-container">
+                <div class="parallax"><img src="img/book2.jpg"></div>
+             </div>
+		
+        <!--New feed -->
+		<!--update new book // add pic-->
+        	<div class="carousel carousel-slider center" data-indicators="true">
+            <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            </div>
+                <div class="carousel-item red white-text" href="#one!">
+                <h2>New book1</h2>
+                <p class="white-text">This is mew book</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                <h2>New book3</h2>
+                <p class="white-text">This is mew book</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                <h2>New book3</h2>
+                <p class="white-text">This is mew book</p>
+                </div>
+            </div>         
+
+		<!--card-->
+                <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/bg2.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+                  <p>detail book</p>
+                </div>
+              </div>
+
+		<!--Profile //Show my profile// edit profile-->
+
+        	<ul id="slide-out" class="side-nav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="images/office.jpg">
+              </div>
+              <a href="#!user"><img class="circle" src="img/grizz.jpg"></a>
+              <a href="#!name"><span class="white-text name">John Doe</span></a>
+              <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Edit Profile</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+              </ul>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                
+
+
+
+
+
+
+        <!-- message-->
+        		<div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">First Name</label>
+                </div>
+              </div>
+            </form>
+          </div>
+		
+
+
+
+        <!-- END BODY -->
+
+		<!-- Plus -->
+		<div class="fixed-action-btn horizontal">
+    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+    <!-- FOOTER -->
+   @Html.Partial("_Footer")
+    <!-- END FOOTER -->
+</body>
+
+</html>

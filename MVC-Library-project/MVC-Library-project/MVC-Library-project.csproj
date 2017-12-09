@@ -182,6 +182,11 @@
     <Content Include="Views\Shared\_Navbar_book.cshtml" />
     <Content Include="Views\Shared\_borrow.cshtml" />
     <Content Include="Views\Shared\_return.cshtml" />
+    <Content Include="Views\Member\HomeIndex.cshtml" />
+    <Content Include="Views\Member\Profile.cshtml" />
+    <Content Include="Views\Member\History.cshtml" />
+    <Content Include="img\book1.jpg" />
+    <Content Include="img\book2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
