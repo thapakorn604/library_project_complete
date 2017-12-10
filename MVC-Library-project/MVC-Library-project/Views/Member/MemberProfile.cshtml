@@ -3,118 +3,75 @@
 @Html.Partial("_Header")
 <body>
     <!-- NAVBAR -->
-    @Html.Partial("_Navbar_home")
+    @Html.Partial("_Navbar_member")
     <!-- END NAV -->
          <!-- BODY -->
+        <div class="container">
+            <div class="section"></div>
+            <div class="row">
+                <div class="col s12 m2">
+                    <ul>
+                        <li>
+                            <img src="img/grizz.jpg" class="circle responsive-img">
+                        </li>
+                        <li class="valign center">
+                            <a href="#editProfile">Edit Profile</a>
+                        </li>
+                    </ul>
+                </div>
 
-
-
-
-		<!--pic of profile-->
-		
-
-
-
-
-		<!--from profile-->
-		 <div id="Edit peofile" class="modal">
-                <div class="modal-content">
-                    <div class="container">
-                    <div class="section"></div>
-                    <h4>Edit Profile</h4>
-                           
-					        <div class="row">
-                            <form class="col s12">
-                                
-							    <div class="row">
-        								<!--first name-->
-                                        <div class="input-field col s6">
-                                        <i class="material-icons prefix">account_circle</i>
-                                        <input id="FirstName" type="text" class="validate">
-                                        <label for="FirstName">First Name</label>
-                                        </div>
-        								<!--Last name-->
-                                        <div class="input-field col s6">
-                                        <input value="Last Name member from DB" id="LastName" type="text" class="validate">
-                                        <label for="LastName">Last Name</label>
-                                        </div>
+                <div class="col s12 m5"><h3>Profile</h3></div>
+                <div class="col s12 m10">
+                    <div class="row">
+                        <div class="col s12 m5">
+                            <div class="card">
+                                <div class="card-content">
+                                    <blockquote>Hi! I'm <a name="username">NiRaNam</a></blockquote>
+                                   
                                 </div>
+                                <div class="card-content brown lighten-4">
+                                    <ul>
+                                        <li>
+                                            <h5>Personal Profile</h5>
+                                        </li>
+                                        <li>
+                                            Name : Surasung Jungrai
+                                        </li>
+                                        <li>
+                                            Gender : Male
+                                        </li>
+                                        <li>
+                                            Email: niranam007@gmail.com
+                                        </li>
+                                        <li>
+                                            Contact : 0871234567
+                                        </li>
+                                        <li>
+                                            Birthday : 12/12/2012
+                                        </li>
+                                    </ul>
+                                </div> 
+                           </div> 
+                        </div>
+                        <div class="col s12 m5">
+                            <div class="card">
+                                <div class="card-content">
+                                    <blockquote>Lastest Borrow : 01/12/2017</blockquote>
+                                    <blockquote>Due Date : 13/12/2017</blockquote>
+                                </div>
+                           </div> 
+                        </div>
+                    </div>
 
-            					<div class="row">
-                                         <!--Gender-->
-                                         <form action="#">
-                                         <p>
-                                         <input name="Gender" type="radio" id="Gender" />
-                                         <label for="Gender">Male</label>
-                                         </p>
-                                         <p>
-                                         <input name="Gender" type="radio" id="Gender" />
-                                         <label for="Gender">Female</label>
-                                         </p>
-            							 </form>
-								         <!--Phone -->
-					                     <div class="input-field col s6">
-                                         <i class="material-icons prefix">phone</i>
-                                         <input id="PhoneNumber" type="tel" class="validate">
-                                         <label for="PhoneNumber">Telephone</label>
-                                         </div>
-                                  </div>
+                    
+                </div>
 
-                                  <div class="row">
-    							          <!--User name-->
-        				                  <div class="input-field col s6">
-                                          <input value="Username member from DB" id="Username" type="text" class="validate">
-                                          <label for="Username">Username</label>
-                                          </div>
-                                          <!--pass word-->
-                                          <div class="input-field col s12">
-                                          <input id="Password" type="password" class="validate">
-                                          <label for="Password">Password</label>
-                                          </div>
-                                   </div>
-
-        						   <div class="row">   
-        			                      <!--E-mail-->
-                                          <div class="input-field col s12">
-                                          <input id="email" type="email" class="validate">
-                                          <label for="email">Email</label>
-                                          </div>
-                                             
-        			                      <div class="col s12">           
-                                          This is an inline input field:
-                                          <div class="input-field inline">
-                                          <input id="email" type="email" class="validate">
-                                          <label for="email" data-error="wrong" data-success="right">Email</label>
-                                          </div>
-                                          </div>
-                                   </div>
-							       
-                                   <div class="row">   
-                                          <!--submit-->
-            			                   <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                                           <i class="material-icons right">send</i>
-                                           </button>
-								   </div>
-
-							       <div class="progress">
-                                   <div class="indeterminate"></div>
-                                   </div>
-
-			              </form>
-                          </div>
-					</div>
-                 </div>
-             </div>
-         <!--end from profile-->
-
-		
-        
+            </div>
+        </div>
 		 <!-- END BODY -->
 
         <!-- Plus -->
-        <div class="fixed-action-btn horizontal">
-    <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-        </div>
+     
     <!-- FOOTER -->
    @Html.Partial("_Footer")
     <!-- END FOOTER -->
