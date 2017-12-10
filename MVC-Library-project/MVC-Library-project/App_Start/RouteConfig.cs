@@ -12,7 +12,7 @@ namespace MVCLibraryproject
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Member", action = "HomeIndex", id = UrlParameter.Optional }
+                defaults: new { controller = "Member", action = "Home", id = UrlParameter.Optional }
             );
         }
     }
