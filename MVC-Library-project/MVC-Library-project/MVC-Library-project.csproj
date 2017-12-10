@@ -108,7 +108,6 @@
     <Compile Include="Entities\Record.cs" />
     <Compile Include="Controllers\LibrarianController.cs" />
     <Compile Include="Controllers\AuthenticationController.cs" />
-    <Compile Include="Controllers\ManagementController.cs" />
     <Compile Include="Controllers\MemberController.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -193,7 +192,6 @@
     <Content Include="Views\Librarian\Index.cshtml" />
     <Content Include="Views\Librarian\LibrarianProfile.cshtml" />
 
-    <Content Include="img\bg.jpg" />
     <Content Include="Views\Member\Home.cshtml" />
     <Content Include="img\new1.jpg" />
     <Content Include="img\new2.jpg" />
@@ -209,6 +207,9 @@
     <Content Include="Views\Member\_MemIndex_RightContent.cshtml" />
     <Content Include="Views\Member\_MemIndex_LeftContect.cshtml" />
 
+    <Content Include="img\news2.jpg" />
+    <Content Include="img\news4.jpg" />
+    <Content Include="img\news3.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />
