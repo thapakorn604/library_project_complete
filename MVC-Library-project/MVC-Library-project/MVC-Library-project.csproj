@@ -179,7 +179,6 @@
     <Content Include="img\grizz.jpg" />
     <Content Include="img\icebear.jpg" />
     <Content Include="img\user-bg.jpg" />
-    <Content Include="Views\Book\Index.cshtml" />
     <Content Include="Views\Shared\_Navbar_book.cshtml" />
 
     <Content Include="Views\Member\MemberProfile.cshtml" />
@@ -211,6 +210,9 @@
     <Content Include="Views\Librarian\MemberRegister.cshtml" />
     <Content Include="Views\Member\MemEditProfile.cshtml" />
     <Content Include="Views\Librarian\LibEditProfile.cshtml" />
+    <Content Include="Views\Librarian\Book.cshtml" />
+    <Content Include="Views\Librarian\EditBook.cshtml" />
+    <Content Include="Views\Librarian\AddBook.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />

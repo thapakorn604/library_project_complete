@@ -32,5 +32,17 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
+        public ActionResult Book()
+        {
+            return View();
+        }
+        public ActionResult AddBook()
+        {
+            return View();
+        }
+        public ActionResult EditBook()
+        {
+            return View();
+        }
     }
 }
