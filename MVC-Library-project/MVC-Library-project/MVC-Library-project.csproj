@@ -199,6 +199,9 @@
     <Content Include="Views\Member\MemberSearchBook.cshtml" />
     <Content Include="Views\Member\_MemIndex_RightContent.cshtml" />
     <Content Include="Views\Member\_MemIndex_LeftContect.cshtml" />
+    <Content Include="Views\Librarian\MemberRegister.cshtml" />
+    <Content Include="Views\Member\MemEditProfile.cshtml" />
+    <Content Include="Views\Librarian\LibEditProfile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />

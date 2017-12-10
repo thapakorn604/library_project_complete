@@ -17,6 +17,9 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
+        public ActionResult MemEditProfile(){
+            return View();
+        }
         public ActionResult MemberSearchBook()
         {
             return View();

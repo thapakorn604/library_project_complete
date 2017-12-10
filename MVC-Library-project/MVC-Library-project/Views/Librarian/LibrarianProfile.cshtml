@@ -1,13 +1,83 @@
-﻿@{
-    Layout = null;
-}
+﻿<html lang="en">
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>LibrarianProfile</title>
-</head>
+@Html.Partial("_Header")
 <body>
+    <!-- NAVBAR -->
+    @Html.Partial("_Navbar_librarian")
+    <!-- END NAV -->
+         <!-- BODY -->
+        <div class="container">
+            <div class="section"></div>
+            <div class="row">
+                <div class="col s12 m2">
+                    <ul>
+                        <li>
+                            <img src="img/icebear.jpg" class="circle responsive-img">
+                        </li>
+                        <li class="valign center">
+                            <a href="#editProfile">Edit Profile</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col s12 m5"><h3>Profile</h3></div>
+                <div class="col s12 m10">
+                    <div class="row">
+                        <div class="col s12 m5">
+                            <div class="card">
+                                <div class="card-content">
+                                    <blockquote>Welcome <a name="username">NiRaNam</a></blockquote>
+                                    <blockquote>I'm Librarian'</blockquote>
+                                </div>
+                                <div class="card-content brown lighten-4">
+                                    <ul>
+                                        <li>
+                                            <h5>Personal Profile</h5>
+                                        </li>
+                                        <li>
+                                            Name : Surasung Jungrai
+                                        </li>
+                                        <li>
+                                            Gender : Male
+                                        </li>
+                                        <li>
+                                            Email: niranam007@gmail.com
+                                        </li>
+                                        <li>
+                                            Contact : 0871234567
+                                        </li>
+                                        <li>
+                                            Birthday : 12/12/2012
+                                        </li>
+                                    </ul>
+                                </div> 
+                           </div> 
+                        </div>
+                        <div class="col s12 m5">
+                            <div class="card">
+                                <div class="card-content">
+                                    <blockquote>Books : 10,000</blockquote>
+                                    <blockquote>Borrow : 8,000</blockquote>
+                                    <blockquote>Avaliable : 2,000</blockquote>
+                                    <blockquote>Wait for Return : 8,000</blockquote>
+                                </div>
+                           </div> 
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+        </div>
+         <!-- END BODY -->
+
+        <!-- Plus -->
+     
+    <!-- FOOTER -->
+   @Html.Partial("_Footer")
+    <!-- END FOOTER -->
+
+
 </body>
 </html>
-

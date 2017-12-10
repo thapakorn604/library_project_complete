@@ -20,7 +20,15 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
+        public ActionResult LibEditProfile()
+        {
+            return View();
+        }
         public ActionResult History()
+        {
+            return View();
+        }
+        public ActionResult MemberRegister()
         {
             return View();
         }
