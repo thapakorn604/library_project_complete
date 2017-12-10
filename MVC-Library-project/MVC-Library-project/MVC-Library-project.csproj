@@ -181,11 +181,9 @@
     <Content Include="img\user-bg.jpg" />
     <Content Include="Views\Book\Index.cshtml" />
     <Content Include="Views\Shared\_Navbar_book.cshtml" />
-    <Content Include="Views\Shared\_borrow.cshtml" />
-    <Content Include="Views\Shared\_return.cshtml" />
-    <Content Include="Views\Member\HomeIndex.cshtml" />
-    <Content Include="Views\Member\Profile.cshtml" />
-    <Content Include="Views\Member\History.cshtml" />
+
+    <Content Include="Views\Member\MemberProfile.cshtml" />
+    <Content Include="Views\Member\MemberHistory.cshtml" />
     <Content Include="img\book1.jpg" />
     <Content Include="img\book2.jpg" />
     <Content Include="Views\Shared\_Librarian_borrow.cshtml" />
@@ -194,6 +192,7 @@
     <Content Include="Views\Shared\_Librarian_searchMember.cshtml" />
     <Content Include="Views\Librarian\Index.cshtml" />
     <Content Include="Views\Librarian\LibrarianProfile.cshtml" />
+<<<<<<< HEAD
     <Content Include="img\bg.jpg" />
     <Content Include="Views\Member\Home.cshtml" />
     <Content Include="img\new1.jpg" />
@@ -201,6 +200,15 @@
     <Content Include="img\new3.jpg" />
     <Content Include="img\new4.jpg" />
     <Content Include="img\news1.jpg" />
+=======
+
+    <Content Include="img\gumballlibrary.jpg" />
+
+    <Content Include="Views\Librarian\LibrarianHistory.cshtml" />
+    <Content Include="Views\Member\MemberSearchBook.cshtml" />
+    <Content Include="Views\Member\_MemIndex_RightContent.cshtml" />
+    <Content Include="Views\Member\_MemIndex_LeftContect.cshtml" />
+>>>>>>> bd609e611fbeb26126e7726becbe9397710a4db2
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.2.1.slim.min.map" />

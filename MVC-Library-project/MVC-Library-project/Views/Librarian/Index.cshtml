@@ -3,21 +3,62 @@
 @Html.Partial("_Header")
 <body>
     <!-- NAVBAR -->
-    @Html.Partial("_Navbar_home")
+    @Html.Partial("_Navbar_book")
     <!-- END NAV -->
     <!-- BODY -->
-        <div id="index-banner" class="parallax-container">
-            <div class="section no-pad-bot">
-                <div class="container">
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="section"></div><div class="section"></div><div class="section"></div><div class="section"></div>
+                     <div class="row center">
+                        <h1 class="header col s12 brown-text text-darken-4" id="welcomeText">Welcome Librarian!</h1>
+                     </div>
                 <br><br>
-                    <h1 class="header center brown-text text-darken-2">Apfel's Library</h1>
-                        <div class="row center">                             <div class="col s12 m6">                                 <div class="icon-block">                                 <h5 class="center brown-text">Members</h5>                                 <h3 class="center brown-text lighten-4" name="numMembers">100,000</h3>                                 </div>                             </div>                                                      <div class="col s12 m6">                                 <div class="icon-block">                                 <h5 class="center brown-text">Books</h5>                                 <h3 class="center brown-text lighten-4" name="numBooks">200,000</h3>                                 </div>                             </div>                                                </div>                                                           <div class="row center">                             <div class="col s12 m6">                                 <div class="icon-block">                                 <h5 class="center brown-text">Borrow</h5>                                 <h3 class="center brown-text lighten-4" name="numBorrows">100,000</h3>                                 </div>                             </div>                                                      <div class="col s12 m6">                                 <div class="icon-block">                                 <h5 class="center brown-text">Avaliable</h5>                                 <h3 class="center brown-text lighten-4" name="numAvaliable">100,000</h3>                                 </div>                             </div>                         </div> 
-                <br><br>
+           </div>
+        </div>
+                <div class="parallax"><img src="img/gumballlibrary.jpg"></div>
+    </div>
+    <div class="container">
+        <div class="section">
+        <div class="row">
+                <div class="center col s12">
+                    <h3 class="brown-text text-darken-4">Service Feature</h3>
+                </div>
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <a href="#"><h2 class="center brown-text"><i class="large material-icons">file_upload</i></h2></a>
+                    <h5 class="center">Borrow</h5>
                 </div>
             </div>
-                <div class="parallax"><img src="img/bg1.jpg"></div>
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <a href="#"><h2 class="center brown-text"><i class="large material-icons">file_download</i></h2></a>
+                    <h5 class="center">Return</h5>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <a href="#"><h2 class="center brown-text"><i class="large material-icons">history</i></h2></a>
+                    <h5 class="center">History</h5>
+                </div>
+            </div>    
         </div>
-
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="icon-block">
+                    <a href="#"><h2 class="center brown-text"><i class="large material-icons">book</i></h2></a>
+                    <h5 class="center">Search Book</h5>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="icon-block">
+                    <a href="#"><h2 class="center brown-text"><i class="large material-icons">account_box</i></h2></a>
+                    <h5 class="center">Search Member</h5>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
     <!-- END BODY -->
     <!-- FOOTER -->
    @Html.Partial("_Footer")
