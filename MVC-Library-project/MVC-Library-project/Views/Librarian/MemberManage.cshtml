@@ -1,0 +1,77 @@
+﻿<!--For Librarian to Edit Member-->
+<!DOCTYPE html>
+<html>
+    @Html.Partial("_Header")
+<body>
+         <!-- NAVBAR -->
+    @Html.Partial("_Navbar_librarian")
+        <!-- END NAV -->
+        
+<!-- Table -->
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="section"></div>
+                        <h5 class="center brown-text text-darken-2">Member Management</h5>
+                    <form>
+                    <div class="col s12 m10">
+                        <div class="search-wrapper card hide-on-small-only">
+                                
+                                    <div class="input-field">
+                                        <input id="search" type="search" placeholder="Search Member Here">
+                                        <i class="material-icons">search</i>
+                                    </div>
+                        </div>
+                    </div>
+                  
+                       <div class="input-field col s12 m2">
+                            <select class="browser-default">
+                                <option value="1">All</option>
+                                <option value="1">Member ID</option>
+                                <option value="1">Firstname</option>
+                                <option value="1">Surname</option>
+                                <option value="1">Gender</option>
+                                <option value="1">Username</option>
+                            </select>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </div>
+    
+        <div class="container">
+                <table class="table table-striped custab highlight centered responsive-table">
+                <thead>
+              
+            <tr>
+                <th name="memberID">Member ID</th>
+                <th name="firstName">Fitstname</th>
+                <th name="lastName">Surname</th>
+                <th name="gender">Gender</th>
+                <th name="username">Username</th>
+                <th class="text-center">Edit</th>
+                <th class="text-center">Delete</th>
+            </tr>
+                </thead>
+            <tr>
+                <td>1</td>
+                <td>Surasung</td>
+                <td>Jungrai</td>
+                <td>Male</td>
+                <td>NiRaNam</td>
+                <td class="text-center"><a class="waves-effect waves-light btn green" href="#"><i class="large material-icons">mode_edit</i></a></td>
+                <td class="text-center"><a class="waves-effect waves-light btn" href="#"><i class="large material-icons">delete</i></a></td>
+            </tr>
+                </table>
+        </div>
+ 
+    
+            <div class="fixed-action-btn horizontal">
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+        
+    <!-- Footer-->
+        @Html.Partial("_Footer")
+</body>
+</html>
+
