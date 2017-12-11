@@ -32,6 +32,10 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
+        public ActionResult MemberManage()
+        {
+            return View();
+        }
         public ActionResult Book()
         {
             return View();
