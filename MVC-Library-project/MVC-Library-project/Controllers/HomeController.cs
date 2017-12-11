@@ -16,7 +16,7 @@ namespace MVCLibraryproject.Controllers
 
         public ActionResult Login()
         {
-            return RedirectToAction("Login", "Authentication", null);
+            return View();
         }
     }
 }

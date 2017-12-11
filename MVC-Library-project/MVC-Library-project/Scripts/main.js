@@ -26,6 +26,7 @@
   
     $('.carousel.carousel-slider').carousel({fullWidth: true});
 
+
     $('.slider').slider();
 
   $('.collapsible').collapsible({

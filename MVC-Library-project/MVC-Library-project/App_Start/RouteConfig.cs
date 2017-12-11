@@ -13,7 +13,7 @@ namespace MVCLibraryproject
                 name: "Default",
                 url: "{controller}/{action}/{id}",
 
-                defaults: new { controller = "Librarian", action = "LibEditProfile", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
 
             );
         }
