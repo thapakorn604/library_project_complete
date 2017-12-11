@@ -44,5 +44,9 @@ namespace MVCLibraryproject.Controllers
         {
             return View();
         }
+        public ActionResult LibrarianHistory()
+        {
+            return View();
+        }
     }
 }

@@ -83,7 +83,6 @@
     <Folder Include="content\materialize\css\" />
     <Folder Include="Views\Member\" />
     <Folder Include="Views\Librarian\" />
-    <Folder Include="Views\Book\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
